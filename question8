@@ -1,0 +1,24 @@
+package question8;
+
+/**
+ *
+ * @author hp
+ */
+public class QUESTION8 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        int num = 12;
+
+        System.out.println("Even numbers from 12 to 50:");
+
+        do {
+            System.out.print(num + " ");
+            num += 2;
+        } while (num <= 50);
+
+        System.out.println();
+    }
+}
